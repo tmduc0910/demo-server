@@ -1,0 +1,18 @@
+{
+  "name": "minh-duc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login-middleware.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "json-server": "^0.14.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "start-auth": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

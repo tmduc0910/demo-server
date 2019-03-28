@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "userId": 101,
+      "id": 101,
+      "title": "Test Title",
+      "body": "Test Body"
+    },
+    {
+      "userId": 106,
+      "id": 112,
+      "title": "Test Title",
+      "body": "Test Body"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "users": {
+    "status": "Success",
+    "data": [
+      {
+        "userId": 1,
+        "id": 2,
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+      },
+      {
+        "userId": 1,
+        "id": 3,
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+      }
+    ]
+  },
+  "login": [
+    {
+      "username": "admin",
+      "password": "123456",
+      "id": 100,
+      "email": "abc@mail.com",
+      "name": "a b c",
+      "gender": "male",
+      "phone": "0123444555"
+    },
+    {
+      "username": "admin2",
+      "password": "abcxyz",
+      "id": 200,
+      "email": "xyz@mail.com",
+      "name": "x y z",
+      "gender": "female",
+      "phone": "0123456789"
+    }
+  ]
+}
